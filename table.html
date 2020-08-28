@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #red , #red th , #red td{
+        
+           border: 2px solid red;
+           border-collapse: collapse;
+       }
+       #red {
+           width: 100%;
+           text-align: center;
+           box-shadow: 0 0 10px black;
+       }
+       #red th{
+           background-color: seagreen;
+           color: seashell;
+       }
+    </style>
+</head>
+<body>
+    <h1>Html Table</h1>
+    <Table border="2">
+    
+            <tr>
+                <th>SNo</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Address</th>
+            </tr>
+            <td>1</td>
+            <td>Chandu</td>
+            <td>MaidenSoft</td>
+            <td>Ammerpet</td>
+            <tr>
+                <td>2</td>
+                <td>Sunil</td>
+                <td>MaidenSoft</td>
+                <td>hyderabad</td>
+            </tr>
+  
+    </Table>
+    <h2>Tabel with colSpan</h2>
+    <Table border="2">
+        <th>Sno</th>
+        <th>Name</th>
+        <th colspan="2">Company $ Address</th>
+        <tr>
+            <td>1</td>
+            <td>Naga</td>
+            <td>maidensoft </td>
+            <td>ammerpet</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>sunil</td>
+            <td>maidensoft</td>
+            <td>bangalore</td>
+        </tr>
+    </Table>
+    <h2>Table with Row Span</h2>
+    <Table border="2">
+        <th>
+            SNo
+        </th>
+        <th>Name</th>
+        <th>Company</th>
+        <th>Adress</th>
+
+
+            <tr>
+                <td rowspan="3">1</td>
+                <td>Naga</td>
+                <td>maidensoft </td>
+                <td>ammerpet</td>
+            </tr>
+            <tr>
+                
+            <td>Naga</td>
+            <td>maidensoft </td>
+            <td>ammerpet</td>
+            </tr>
+            <tr>
+                <td>chandu</td>
+                <td>MaidenSoft</td>
+                <td>ammerpet</td>
+            </tr>
+        
+    </Table>
+    <h2>Custom Table</h2>
+    <Table id ="red">
+        
+            
+                <th>SNo</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Address</th>
+            <tr>
+            <td>1</td>
+            <td>Chandu</td>
+            <td>MaidenSoft</td>
+            <td>Ammerpet</td>
+            </tr>
+                        <tr>
+                <td>2</td>
+                <td>Sunil</td>
+                <td>MaidenSoft</td>
+                <td>hyderabad</td>
+            </tr>
+        
+    </Table>
+
+</body>
+</html>
